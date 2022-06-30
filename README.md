@@ -1,34 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+# eCommerce Next.js Application
+[![Super-Electronics-Store-home-page-banner.png](https://i.postimg.cc/Jnt83HvP/Super-Electronics-Store-home-page-banner.png)](https://postimg.cc/7Gvjwhx2)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Live Demo
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+This is a [Next.js](https://nextjs.org/) project. Check out the demo [here](https://e-commerce-v2.vercel.app/)
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Technology Used
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- [React](https://reactjs.org/) JavaScript library
+- [Next.js](https://nextjs.org/) React framework
+- [Sanity.io](http://sanity.io/) content management system
+- [Stripe](https://stripe.com/) payment processing
+- [Vercel](https://vercel.com/) serverless deployment
 
-## Learn More
+## How it works
 
-To learn more about Next.js, take a look at the following resources:
+An end-to-end functional eCommerce store. Browse products; add, remove, or view items from your cart; and checkout your items with Stripe.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+On a more technical note, 
+- The app showcases modern design, animations and advanced cart functionalities. 
+- Stripe API integration to manage payments, shipping rates, and the entire checkout process. 
+- This app also utilizes advanced state management with the React hooks and Context API.
+- File-based routing and data fetching with server-side rendering using Next.js as a backend endpoint. 
+- Sanity.io to handle content along with its file storage and databases.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+[![Super-Electronics-Store-full-page.png](https://i.postimg.cc/QMYbspFQ/Super-Electronics-Store-full-page.png)](https://postimg.cc/PLZZQvzJ)
 
-## Deploy on Vercel
+[![Super-Electronics-Store-product-page.png](https://i.postimg.cc/8zH4X8Dn/Super-Electronics-Store-product-page.png)](https://postimg.cc/jDDyCFDz)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+[![Super-Electronics-Store-cart.png](https://i.postimg.cc/027cmM4v/Super-Electronics-Store-cart.png)](https://postimg.cc/mt2YWDRp)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[![Super-Electronics-checkout-stripe.png](https://i.postimg.cc/Kv4KcQNs/Super-Electronics-checkout-stripe.png)](https://postimg.cc/SJFQD6HW)
